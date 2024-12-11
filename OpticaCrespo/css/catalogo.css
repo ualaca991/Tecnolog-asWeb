@@ -1,0 +1,37 @@
+.red-section {
+    width: 100%;
+    height: 336px;
+    background-color: red;
+    color: white;
+    display: flex; /* Para centrar el contenido */
+    flex-direction: column; /* Alinear elementos en columna */
+    justify-content: center; /* Centrar verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+    text-align: center; /* Centrar el texto */
+    border: 1px solid black;
+}
+
+.red-section h1 {
+    font-size: 2rem; /* Tamaño del título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+.red-section p {
+    font-size: 1rem; /* Tamaño del texto del párrafo */
+    margin-bottom: 20px; /* Espacio debajo del párrafo */
+}
+
+
+.buy-button {
+    background-color: black; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 12px 50px; /* Espaciado interno */
+    font-size: 1rem; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor a un puntero */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Efecto al pasar el mouse */
+}
+
+.buy-button:hover {
+    background-color: #ffcccc; /* Color al pasar el mouse */
+}

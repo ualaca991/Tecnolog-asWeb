@@ -1,0 +1,162 @@
+/* LOG IN */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:"Roboto";
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+/*Login*/
+
+body{
+    background-color: #f8f8f8;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.main .login{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;  
+    width: 90%;  
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 25px 40px 0px 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.main .login h1{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;  
+}
+
+.main .login p{
+    font-size: 16px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.main .login .form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main .login .form .fomr2 label{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.main .login .form .form2 input{
+    width: 95%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f8f8f8;
+    transition: border-color 0.3s;
+}
+
+.main .login .form input:focus{
+    outline: none;
+}
+
+button{
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 250px;
+}
+
+.continue button{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    transition: transform 0.3s ease;
+}
+
+.continue button:hover {
+    transform: scale(1.05);
+}
+
+.forget button{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+    transition: all 0.3s;
+}
+
+.forget button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.buttons{
+    display: flex;
+    justify-content: left;
+    text-align: center;  
+    gap: 15px;  
+    margin-top: 10px;
+}
+
+.main .login .image{
+    max-width: 600px;
+    border-radius: 8px;
+    margin-left: 30px;
+    max-height: 375px;
+    object-fit: cover;
+}
+
+/*Register*/
+
+.main .register{
+    text-align: center;
+}
+
+.main .register h1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.main .register p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.main .register a button{
+    padding: 12px 20px;
+    width: 80%; 
+    text-align: center; 
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.main .register a button:hover{
+    background-color: black;
+    color: white;
+}
